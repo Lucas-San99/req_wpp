@@ -1,36 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<body class="body">
-    <div id="btn-wpp" class="container">
+  <body class="body">
+    <div class="container">
+      <div id="btn-wpp">
         <button class="btn btn-primary" type="submit" id="botaocentral">
-            <a href="#" id="whatsappButton" class="button" >Bora testar o botão!!</a>
+          <a
+            href="#"
+            id="whatsappButton"
+            class="button"
+            onclick="wppButtonClick()"
+          >
+            <span>
+              <img src="img/whatsapp.png" alt="wpp-icon" width="30px" />
+              Bora testar o botão!!
+            </span>
+          </a>
         </button>
-    </div>
-    <div id="btn-puc" class="container">
-        <button class="btn btn-primary" type="submit" id="btnpuc">
-            <a href="#" id="txtbtnpuc" class="button" >Conhaça a  PUC são Gabriel ;)</a>
+      </div>
+      <div id="btn-puc">
+        <button class="btn btn-primary" id="btnpuc">
+          <a
+            href="#"
+            id="pucButton"
+            class="button"
+            target="_blank"
+            onclick="pucButtonClick()"
+            >Conhaça a PUC são Gabriel ;)</a
+          >
         </button>
+      </div>
     </div>
-
-    <script scr="style.js">
-        var btn = document.getElementById("whatsappButton");
-        btn.onclick = function () {
-            window.location.href = "https://wa.me/5531996166591?text=Esse é um teste para vermos o comportamento da API";
-        }
-        var btn2 = document.getElementById("txtbtnpuc");
-        btn2.onclick = function () {
-            window.location.href = "https://www.pucminas.br/unidade/sao-gabriel/Paginas/default.aspx";
-        } 
-    </script>
-</body>
-
+  </body>
+  <script src="js/script.js"></script>
 </html>
