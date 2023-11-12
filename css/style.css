@@ -4,8 +4,9 @@
 }
 .container {
     text-align: center;
-    margin-top: 250px;
-    margin-bottom: 250px;
+    margin: auto;
+    margin-top: 40%;
+    display:grid;
 }
 #whatsappButton {
     color: black;
@@ -16,4 +17,14 @@
 }
 #botaocentral:hover{
     background-color: rgb(226, 203, 98);
+}
+#txtbtnpuc {
+    color: black;
+    text-decoration: none;
+}
+#btnpuc{
+    background-color: aquamarine;
+}
+#btnpuc:hover{
+    background-color: rgb(5, 75, 26)
 }

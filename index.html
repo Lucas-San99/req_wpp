@@ -12,17 +12,24 @@
 <body class="body">
     <div id="btn-wpp" class="container">
         <button class="btn btn-primary" type="submit" id="botaocentral">
-            <a href="#" id="whatsappButton" class="button">Bora testar o botão!!</a>
+            <a href="#" id="whatsappButton" class="button" >Bora testar o botão!!</a>
+        </button>
+    </div>
+    <div id="btn-puc" class="container">
+        <button class="btn btn-primary" type="submit" id="btnpuc">
+            <a href="#" id="txtbtnpuc" class="button" >Conhaça a  PUC são Gabriel ;)</a>
         </button>
     </div>
 
     <script scr="style.js">
         var btn = document.getElementById("whatsappButton");
-        var span = document.getElementsByClassName("close")[0];
         btn.onclick = function () {
-            // Adicione aqui o código para coletar as informações
             window.location.href = "https://wa.me/5531996166591?text=Esse é um teste para vermos o comportamento da API";
         }
+        var btn2 = document.getElementById("txtbtnpuc");
+        btn2.onclick = function () {
+            window.location.href = "https://www.pucminas.br/unidade/sao-gabriel/Paginas/default.aspx";
+        } 
     </script>
 </body>
 
