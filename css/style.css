@@ -1,0 +1,19 @@
+.body {
+    background-image: linear-gradient(to right, #3506ee, #02222e);
+    height: 100%;
+}
+.container {
+    text-align: center;
+    margin-top: 250px;
+    margin-bottom: 250px;
+}
+#whatsappButton {
+    color: black;
+    text-decoration: none;
+}
+#botaocentral{
+    background-color: aquamarine;
+}
+#botaocentral:hover{
+    background-color: rgb(226, 203, 98);
+}
