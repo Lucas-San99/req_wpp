@@ -8,8 +8,11 @@
   text-align: center;
   display: grid;
 }
-#btn-puc {
-  margin: 10px;
+#wppButton {
+  background-color: aquamarine;
+}
+#wppButton:hover {
+  background-color: rgb(226, 203, 98);
 }
 #whatsappButton {
   text-decoration: none;
@@ -17,15 +20,12 @@
 #whatsappButton > span {
   color: black;
 }
-#botaocentral {
-  background-color: aquamarine;
-}
-#botaocentral:hover {
-  background-color: rgb(226, 203, 98);
-}
 #pucButton {
   color: black;
   text-decoration: none;
+}
+#btn-puc-div {
+  margin: 10px;
 }
 #btnpuc {
   background-color: aquamarine;
