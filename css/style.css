@@ -12,7 +12,8 @@
   background-color: aquamarine;
 }
 #wppButton:hover {
-  background-color: rgb(226, 203, 98);
+  background-color: rgba(127, 255, 212, 0.745);
+  font-weight: 500;
 }
 #whatsappButton {
   text-decoration: none;
@@ -31,5 +32,6 @@
   background-color: aquamarine;
 }
 #btnpuc:hover {
-  background-color: rgb(5, 75, 26);
+  background-color: rgba(127, 255, 212, 0.745);
+  font-weight: 500;
 }
