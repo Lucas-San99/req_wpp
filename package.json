@@ -1,0 +1,22 @@
+{
+  "name": "req_wpp",
+  "version": "1.0.0",
+  "description": "Desenvolvimento de uma página com frontend básico com botão para requisição da API de conveersa do whatsapp. o intuito é mostrar o empacotamento de requests na rede ao clicar no botão de conversa para whatsapp.",
+  "main": "/js/script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucas-San99/req_wpp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lucas-San99/req_wpp/issues"
+  },
+  "homepage": "https://github.com/Lucas-San99/req_wpp#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
