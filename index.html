@@ -15,33 +15,59 @@
   <body class="body">
     <div class="container">
       <div>
-        <button class="btn btn-primary" type="submit" id="wppButton">
-          <a
-            href="#"
-            id="whatsappButton"
-            class="button"
+        <div class="buttons-div">
+          <button class="btn btn-primary" type="submit" id="wppButton">
+            <a
+              href="#"
+              id="whatsappButton"
+              class="button"
+              target="_blank"
+              onclick="wppButtonClick()"
+            >
+              <span>
+                <img src="img/whatsapp.png" alt="wpp-icon" width="30px" />
+                Bora testar o botão!!
+              </span>
+            </a>
+          </button>
+          <form
+            action="http://localhost:3000/download1"
+            method="get"
             target="_blank"
-            onclick="wppButtonClick()"
           >
-            <span>
-              <img src="img/whatsapp.png" alt="wpp-icon" width="30px" />
-              Bora testar o botão!!
-            </span>
-          </a>
-        </button>
+            <button class="btn btn-dark download-button" type="submit">
+              <img src="/img/download.png" alt="download" width="40px" />
+            </button>
+          </form>
+        </div>
       </div>
       <div id="btn-puc-div">
-        <button class="btn btn-primary" id="btnpuc">
-          <a
-            href="#"
-            id="pucButton"
-            class="button"
+        <div class="buttons-div">
+          <button class="btn btn-primary" id="puc-button">
+            <a
+              href="#"
+              id="pucButton"
+              class="button"
+              target="_blank"
+              onclick="pucButtonClick()"
+            >
+              Conheça a PUC são Gabriel ;)
+            </a>
+          </button>
+          <form
+            action="http://localhost:3000/download2"
+            method="get"
             target="_blank"
-            onclick="pucButtonClick()"
           >
-            Conheça a PUC são Gabriel ;)
-          </a>
-        </button>
+            <button
+              class="btn btn-dark download-button"
+              type="submit"
+              style="margin-right: 20px"
+            >
+              <img src="/img/download.png" alt="download" width="40px" />
+            </button>
+          </form>
+        </div>
       </div>
     </div>
   </body>

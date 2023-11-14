@@ -8,12 +8,20 @@
   text-align: center;
   display: grid;
 }
+.buttons-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 #wppButton {
   background-color: aquamarine;
+  margin-right: 30px;
 }
 #wppButton:hover {
   background-color: rgba(127, 255, 212, 0.745);
   font-weight: 500;
+}
+.download-button {
 }
 #whatsappButton {
   text-decoration: none;
@@ -28,10 +36,11 @@
 #btn-puc-div {
   margin: 10px;
 }
-#btnpuc {
+#puc-button {
   background-color: aquamarine;
+  margin-right: 30px;
 }
-#btnpuc:hover {
+#puc-button:hover {
   background-color: rgba(127, 255, 212, 0.745);
   font-weight: 500;
 }
