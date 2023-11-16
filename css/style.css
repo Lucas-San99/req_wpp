@@ -1,12 +1,34 @@
 .body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
-    url("/img/istockphoto-1409540606-612x612.jpg");
+  background-color: #111b21;
   height: 100%;
 }
 .container {
-  padding: 20%;
+  padding: 5%;
   text-align: center;
   display: grid;
+}
+.carousel-inner {
+  padding-bottom: 25%;
+  height: 750px;
+}
+.carousel-control-prev-icon {
+  width: 30%;
+  margin-right: 100px;
+}
+.carousel-control-next-icon {
+  width: 30%;
+  margin-left: 100px;
+}
+.carousel-item {
+  position: absolute !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.carousel-item img {
+  height: 100%;
+  object-fit: fill;
 }
 .buttons-div {
   display: flex;
@@ -20,8 +42,6 @@
 #wppButton:hover {
   background-color: rgba(127, 255, 212, 0.745);
   font-weight: 500;
-}
-.download-button {
 }
 #whatsappButton {
   text-decoration: none;
